@@ -1,0 +1,218 @@
+h1{
+    text-align: center;
+}
+
+*{
+    font-family: 'Abel', sans-serif;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e8e8e8;
+}
+.busqueda{
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(43, 30, 30);
+    width: 90%;
+    max-width: 1000px;
+    margin:auto
+}
+.busqueda li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px;
+    display: block;
+}
+.busqueda li{
+    display: inline-block;
+    text-align: center;
+}
+.busqueda li a:hover{
+ background: #ef8354;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: whitesmoke;
+}
+
+
+.card {
+    top: 50%;
+    left: 50%;
+    top: 250px;
+    width: 500px;
+    height: 260px;
+    background: #fff;
+    position: absolute;
+    border-radius: 3px;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    z-index: 5;
+    border: 1px solid gray;
+}
+.card img {
+    width: 100%;
+    height: 100%;
+    
+}
+.card2{
+    top: 540px;
+    width: 500px;
+    height: 30%;
+    overflow: hidden;
+    position: absolute;
+    border: 1px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    border: 1px solid #ccc;
+}
+#biografia{
+    font-size:large;
+}
+#landon-im{
+    position: relative;
+    left: 83%;
+    
+}
+.card_cv{
+    
+    top: 50%;
+    left: 50%;
+    top: 500px;
+
+    width: 750px;
+    height: 800px;
+    background: #fff;
+    position: absolute;
+    border-radius: 3px;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    z-index: 5;
+    border: 1px solid gray;
+}
+.cv-items{
+    position: relative;
+    left: 20px;
+}
+
+.cv-subitems{
+    position: relative;
+    left: 50px;
+}
+.form-contact label{
+    display: block;
+    font-size: 16px;
+    font-weight: 900px;
+}
+.form-contact {
+    margin-top: 20px;
+    position: relative;
+    top: 160px;
+ }
+ .enunciado{
+    position: relative;
+    left: 25px;
+ }
+ .controls {
+   width: 400px;
+   font-size: 16px;
+   font-weight: 600;
+   font-family: sans-serif;
+   border: 1px solid #cecaca;
+   background: #f1f1f1;
+   padding: 14px 12px;
+   margin: 8px 0
+ }
+ 
+ 
+ 
+ .buttons {
+   background: black;
+   border:none;
+   color: white;
+   font-size: 18px;
+   display: block;
+   margin: auto;
+   padding: 20px 60px;
+   cursor: pointer;
+   margin-top: 20px;
+ }
+
+ .card_contact{
+    top: 50%;
+    left: 50%;
+    top: 500px;
+
+    width: 750px;
+    height: 800px;
+    background: #fff;
+    position: absolute;
+    border-radius: 3px;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    z-index: 5;
+    border: 1px solid gray;
+ }
+ #encontrarme{
+    text-align: center;
+ }
+ .mail{
+    position: relative;
+    top: 40px;
+    left: 20px;
+ }
+ #mail-p{
+    position: relative;
+    top: 50px;
+    left: 50px;
+ }
+ .telefono{
+    position: relative;
+    top: 60px;
+    left: 20px;
+ }
+ #telefono-p{
+    position: relative;
+    top: 70px;
+    left: 50px;
+ }
+ .instagram{
+    position: relative;
+    top: 80px;
+    left: 20px;
+ }
+ #instagram-p{
+    position: relative;
+    top: 85px;
+    left: 50px;
+ }
+ .twiter{
+    position: relative;
+    top: 95px;
+    left: 20px;
+ }
+ #twiter-p{
+    position: relative;
+    top: 100px;
+    left: 50px;
+ }
+ .linkedin{
+    position: relative;
+    top: 110px;
+    left: 20px;
+ }
+ #linkedin-p{
+    position: relative;
+    left: 50px;
+    top: 115px;
+ }
+#esccribir-directamente{
+    position: relative;
+    top: 160px;
+}
